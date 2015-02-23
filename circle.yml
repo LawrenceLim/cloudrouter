@@ -1,6 +1,6 @@
 general:
-	build_dir: src/build
+   build_dir: src/build
 
 test:
-	post:
-		- ./build-disk-image.sh
+   post:
+      - ./build-disk-image.sh
